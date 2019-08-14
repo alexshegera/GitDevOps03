@@ -366,3 +366,15 @@
 [2019-08-14 17:48:11,450]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session '440RJYm...' was created, agent: "ip_172.17.0.3" {id=1}
 [2019-08-14 17:48:11,531]   WARN -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} is unauthorized on registration
 [2019-08-14 17:49:09,633]   INFO - s.buildServer.ACTIVITIES.AUDIT - agent_authorize: Agent ""ip_172.17.0.3" {id=1}" was authorized by "'alex' (Oleksandr) {id=1}"
+[2019-08-14 18:04:12,434]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=1, promotion=Build promotion {promotion id=1, configuration={id=GitDevOps03_Build, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-14 18:04:12,459]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=1, configuration={id=GitDevOps03_Build, internal id=bt1}, queued}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs')}
+[2019-08-14 18:04:12,616]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=1, promotion id=1
+[2019-08-14 18:04:12,656]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1} #1 {promotion id=1, agent="ip_172.17.0.3" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-14 18:04:12.581, running}
+[2019-08-14 18:04:12,663]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 1
+[2019-08-14 18:04:12,672]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 132ms, number of builds started: 1
+[2019-08-14 18:04:19,670]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #1 {build id=1, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:04:19,672]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #1 {build id=1, buildTypeId=GitDevOps03_Build}, task id: 4
+[2019-08-14 18:04:19,676]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #1 {build id=1, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:04:19,691]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #1 {build id=1, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:04:19,730]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 1, finish date: 2019-08-14 18:04:19.651
+[2019-08-14 18:04:19,801]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1} #1 {promotion id=1, agent="ip_172.17.0.3" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-14 18:04:13.852, finished. Status "NORMAL 'Running'"}
