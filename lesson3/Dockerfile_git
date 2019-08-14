@@ -1,0 +1,7 @@
+FROM alpine:latest
+USER alex
+RUN apk update && \ 
+apk add git
+WORKDIR /repo
+ENTRYPOINT ["git", "clone"]
+

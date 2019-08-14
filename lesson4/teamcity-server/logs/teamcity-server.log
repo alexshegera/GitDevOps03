@@ -1,0 +1,368 @@
+[2019-08-14 16:57:58,899]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-08-14 16:57:58,973]   INFO -   jetbrains.buildServer.SERVER - Using logs directory "/opt/teamcity/logs"
+[2019-08-14 16:57:59,029]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-08-14 16:57:59,030]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-08-14 16:57:59,030]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-08-14 16:57:59,537]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2019.1.2 (build 66342), data format version 898
+[2019-08-14 16:57:59,543]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 5.0.0-25-generic, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-08-14 16:57:59,543]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx2g -XX:ReservedCodeCacheSize=350m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-08-14 16:57:59,544]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-08-14 16:57:59,545]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.40
+[2019-08-14 16:57:59,547]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.17.0.2
+[2019-08-14 16:57:59,551]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-08-14 16:57:59,551]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-08-14 16:57:59,564]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-08-14 16:57:59,564]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-08-14 16:57:59,570]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 16:57:59,594]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-08-14 16:57:59,594]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-08-14 16:57:59,604]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-08-14 16:57:59,605]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-08-14 16:57:59,628]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-08-14 16:57:59,628]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-08-14 17:01:38,875]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-08-14 17:01:38,924]   INFO -   jetbrains.buildServer.SERVER - Using logs directory "/opt/teamcity/logs"
+[2019-08-14 17:01:39,061]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-08-14 17:01:39,062]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-08-14 17:01:39,062]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-08-14 17:01:40,035]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2019.1.2 (build 66342), data format version 898
+[2019-08-14 17:01:40,044]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 5.0.0-25-generic, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-08-14 17:01:40,044]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx2g -XX:ReservedCodeCacheSize=350m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-08-14 17:01:40,045]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-08-14 17:01:40,047]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.40
+[2019-08-14 17:01:40,048]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.17.0.2
+[2019-08-14 17:01:40,051]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-08-14 17:01:40,051]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-08-14 17:01:40,068]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-08-14 17:01:40,068]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-08-14 17:01:40,075]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:01:40,093]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-08-14 17:01:40,094]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-08-14 17:01:40,102]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-08-14 17:01:40,103]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-08-14 17:01:40,121]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-08-14 17:01:40,121]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-08-14 17:02:43,204]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown event received
+[2019-08-14 17:02:43,204]   INFO -  jetbrains.buildServer.STARTUP - Current stage: TeamCity server is shutting down
+[2019-08-14 17:02:43,204]   INFO -  jetbrains.buildServer.STARTUP - Stopping the main application
+[2019-08-14 17:02:43,204]   INFO -  jetbrains.buildServer.STARTUP - The main servlet is not initialized, nothing to shut down.
+[2019-08-14 17:02:43,205]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was released: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:02:43,210]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown complete. Uptime was 1m:03s
+[2019-08-14 17:03:54,911]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-08-14 17:03:54,949]   INFO -   jetbrains.buildServer.SERVER - Using logs directory "/opt/teamcity/logs"
+[2019-08-14 17:03:55,023]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-08-14 17:03:55,024]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-08-14 17:03:55,024]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-08-14 17:03:55,643]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2019.1.2 (build 66342), data format version 898
+[2019-08-14 17:03:55,650]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 5.0.0-25-generic, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-08-14 17:03:55,650]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx2g -XX:ReservedCodeCacheSize=350m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-08-14 17:03:55,652]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-08-14 17:03:55,653]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.40
+[2019-08-14 17:03:55,654]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.17.0.2
+[2019-08-14 17:03:55,657]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-08-14 17:03:55,657]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-08-14 17:03:55,668]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-08-14 17:03:55,668]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-08-14 17:03:55,675]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:03:55,693]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-08-14 17:03:55,693]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-08-14 17:03:55,703]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-08-14 17:03:55,703]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-08-14 17:03:55,721]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-08-14 17:03:55,721]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-08-14 17:06:05,267]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-08-14 17:06:05,293]   INFO -   jetbrains.buildServer.SERVER - Using logs directory "/opt/teamcity/logs"
+[2019-08-14 17:06:05,365]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-08-14 17:06:05,365]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-08-14 17:06:05,366]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-08-14 17:06:05,968]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2019.1.2 (build 66342), data format version 898
+[2019-08-14 17:06:05,974]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 5.0.0-25-generic, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-08-14 17:06:05,974]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx2g -XX:ReservedCodeCacheSize=350m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-08-14 17:06:05,975]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-08-14 17:06:05,975]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.40
+[2019-08-14 17:06:05,976]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.17.0.2
+[2019-08-14 17:06:05,978]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-08-14 17:06:05,978]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-08-14 17:06:05,988]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-08-14 17:06:05,988]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-08-14 17:06:05,994]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:06:06,016]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-08-14 17:06:06,016]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-08-14 17:06:06,025]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-08-14 17:06:06,025]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-08-14 17:06:06,044]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-08-14 17:06:06,044]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-08-14 17:07:18,693]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown event received
+[2019-08-14 17:07:18,693]   INFO -  jetbrains.buildServer.STARTUP - Current stage: TeamCity server is shutting down
+[2019-08-14 17:07:18,693]   INFO -  jetbrains.buildServer.STARTUP - Stopping the main application
+[2019-08-14 17:07:18,693]   INFO -  jetbrains.buildServer.STARTUP - The main servlet is not initialized, nothing to shut down.
+[2019-08-14 17:07:18,694]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was released: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:07:18,698]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown complete. Uptime was 1m:13s
+[2019-08-14 17:13:34,807]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-08-14 17:13:34,832]   INFO -   jetbrains.buildServer.SERVER - Using logs directory "/opt/teamcity/logs"
+[2019-08-14 17:13:34,900]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-08-14 17:13:34,901]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-08-14 17:13:34,901]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-08-14 17:13:35,566]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2019.1.2 (build 66342), data format version 898
+[2019-08-14 17:13:35,571]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 5.0.0-25-generic, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-08-14 17:13:35,571]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx2g -XX:ReservedCodeCacheSize=350m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-08-14 17:13:35,572]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-08-14 17:13:35,573]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.40
+[2019-08-14 17:13:35,573]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.17.0.2
+[2019-08-14 17:13:35,577]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-08-14 17:13:35,577]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-08-14 17:13:35,587]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-08-14 17:13:35,587]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-08-14 17:13:35,594]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:13:35,617]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-08-14 17:13:35,618]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-08-14 17:13:35,627]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-08-14 17:13:35,627]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-08-14 17:13:35,642]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-08-14 17:13:35,642]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-08-14 17:24:58,519]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-08-14 17:24:58,563]   INFO -   jetbrains.buildServer.SERVER - Using logs directory "/opt/teamcity/logs"
+[2019-08-14 17:24:58,645]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-08-14 17:24:58,645]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-08-14 17:24:58,645]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-08-14 17:24:59,279]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2019.1.2 (build 66342), data format version 898
+[2019-08-14 17:24:59,286]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 5.0.0-25-generic, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-08-14 17:24:59,286]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx2g -XX:ReservedCodeCacheSize=350m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-08-14 17:24:59,287]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-08-14 17:24:59,287]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.40
+[2019-08-14 17:24:59,288]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.17.0.2
+[2019-08-14 17:24:59,291]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-08-14 17:24:59,292]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-08-14 17:24:59,303]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-08-14 17:24:59,303]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-08-14 17:24:59,310]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:24:59,333]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-08-14 17:24:59,334]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-08-14 17:24:59,344]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-08-14 17:24:59,344]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-08-14 17:24:59,361]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-08-14 17:24:59,361]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-08-14 17:25:52,578]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown event received
+[2019-08-14 17:25:52,578]   INFO -  jetbrains.buildServer.STARTUP - Current stage: TeamCity server is shutting down
+[2019-08-14 17:25:52,579]   INFO -  jetbrains.buildServer.STARTUP - Stopping the main application
+[2019-08-14 17:25:52,579]   INFO -  jetbrains.buildServer.STARTUP - The main servlet is not initialized, nothing to shut down.
+[2019-08-14 17:25:52,579]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was released: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:25:52,584]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown complete. Uptime was 53s
+[2019-08-14 17:29:06,773]   INFO -  jetbrains.buildServer.STARTUP - Path to the startup configuration file: /opt/teamcity/bin/../conf/teamcity-startup.properties
+[2019-08-14 17:29:06,798]   INFO -   jetbrains.buildServer.SERVER - Using logs directory "/opt/teamcity/logs"
+[2019-08-14 17:29:06,874]   INFO -  jetbrains.buildServer.STARTUP - 
+
+
+
+
+
+
+[2019-08-14 17:29:06,875]   INFO -  jetbrains.buildServer.STARTUP - ===========================================================
+[2019-08-14 17:29:06,875]   INFO -  jetbrains.buildServer.STARTUP - Starting TeamCity server
+[2019-08-14 17:29:07,442]   INFO -  jetbrains.buildServer.STARTUP - TeamCity version: 2019.1.2 (build 66342), data format version 898
+[2019-08-14 17:29:07,450]   INFO -  jetbrains.buildServer.STARTUP - OS: Linux, version 5.0.0-25-generic, amd64, Current user: root, Time zone: GMT (UTC)
+[2019-08-14 17:29:07,450]   INFO -  jetbrains.buildServer.STARTUP - Java: 1.8.0_192, OpenJDK 64-Bit Server VM (25.192-b12, mixed mode), OpenJDK Runtime Environment (1.8.0_192-b12), Oracle Corporation; JVM parameters: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xmx2g -XX:ReservedCodeCacheSize=350m -Dteamcity.configuration.path=../conf/teamcity-startup.properties -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml -Dteamcity_logs=/opt/teamcity/bin/../logs -Djava.awt.headless=true -Dignore.endorsed.dirs= -Dcatalina.base=/opt/teamcity -Dcatalina.home=/opt/teamcity -Djava.io.tmpdir=/opt/teamcity/temp
+[2019-08-14 17:29:07,451]   INFO -  jetbrains.buildServer.STARTUP - Garbage collection: PS Scavenge, PS MarkSweep
+[2019-08-14 17:29:07,452]   INFO -  jetbrains.buildServer.STARTUP - Web server version: Apache Tomcat/8.5.40
+[2019-08-14 17:29:07,459]   INFO -  jetbrains.buildServer.STARTUP - Server IP address: 172.17.0.2
+[2019-08-14 17:29:07,466]   INFO -  jetbrains.buildServer.STARTUP - Web server ports: 8111 (protocol: HTTP/1.1, scheme: http), 8105 (shutdown port)
+[2019-08-14 17:29:07,466]   INFO -  jetbrains.buildServer.STARTUP - Context path: "/", servlet real path: "/opt/teamcity/webapps/ROOT"
+[2019-08-14 17:29:07,483]   INFO -  jetbrains.buildServer.STARTUP - TeamCity distribution type: docker-ubuntu
+[2019-08-14 17:29:07,484]   INFO -  jetbrains.buildServer.STARTUP - TeamCity server node id: MAIN_SERVER
+[2019-08-14 17:29:07,490]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was successfully obtained: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-14 17:29:07,515]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Looking for the TeamCity Data Directory
+[2019-08-14 17:29:07,515]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory path is determined using the environment variable TEAMCITY_DATA_PATH
+[2019-08-14 17:29:07,525]   INFO -  jetbrains.buildServer.STARTUP - The TeamCity Data Directory "/data/teamcity_server/datadir" exists
+[2019-08-14 17:29:07,526]   INFO -  jetbrains.buildServer.STARTUP - Asking user to confirm first start with the predefined TeamCity Data Directory path
+[2019-08-14 17:29:07,544]   INFO -  jetbrains.buildServer.STARTUP - Startup confirmation is required. Open TeamCity web page in the browser. Server is running at http://localhost:8111
+[2019-08-14 17:29:07,544]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Confirming TeamCity first start (administrator login is required to proceed)
+[2019-08-14 17:29:37,232]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Initializing the TeamCity Data Directory
+[2019-08-14 17:29:37,569]   INFO -  jetbrains.buildServer.STARTUP - Downloading JDBC driver metadata from <https://download.jetbrains.com/teamcity/database-drivers/2019.1.xml?myVersion=2019.1.2&javaVersion=1.8.0_192>...
+[2019-08-14 17:29:38,945]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Setting up database connection (administrator login is required to proceed)
+[2019-08-14 17:29:48,215]   INFO -  jetbrains.buildServer.STARTUP - Generated JDBC connection string: jdbc:hsqldb:file:$TEAMCITY_SYSTEM_PATH/buildserver
+[2019-08-14 17:29:48,216]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Creating a new database
+[2019-08-14 17:29:48,216]   INFO -  jetbrains.buildServer.STARTUP - Creating a new database
+[2019-08-14 17:29:48,264]   INFO -  jetbrains.buildServer.STARTUP - Effective database connection properties:
+[2019-08-14 17:29:48,265]   INFO -  jetbrains.buildServer.STARTUP - 	cache_file_scale=8 [defaults]
+[2019-08-14 17:29:48,265]   INFO -  jetbrains.buildServer.STARTUP - 	hsqldb.default_table_type=cached [defaults]
+[2019-08-14 17:29:48,265]   INFO -  jetbrains.buildServer.STARTUP - 	log_size=1024 [defaults]
+[2019-08-14 17:29:49,016]   INFO -  jetbrains.buildServer.STARTUP - JDBC driver version: 2.3 (HSQL Database Engine Driver)
+[2019-08-14 17:29:49,016]   INFO -  jetbrains.buildServer.STARTUP - Database system version: 2.3.2 (HSQL Database Engine)
+[2019-08-14 17:29:49,016]   INFO -  jetbrains.buildServer.STARTUP - Connected to the database successfully
+[2019-08-14 17:29:49,137]   INFO -  jetbrains.buildServer.STARTUP - Using schema: PUBLIC
+[2019-08-14 17:29:49,142]   INFO -  jetbrains.buildServer.STARTUP - Schema contains no tables.
+[2019-08-14 17:29:49,143]   INFO -  jetbrains.buildServer.STARTUP - Creating database schema
+[2019-08-14 17:29:49,609]   INFO -  jetbrains.buildServer.STARTUP - Using schema: PUBLIC
+[2019-08-14 17:29:49,615]   INFO -  jetbrains.buildServer.STARTUP - Schema contains 152 tables.
+[2019-08-14 17:29:49,617]   INFO -  jetbrains.buildServer.STARTUP - Database version is 898
+[2019-08-14 17:29:49,633]   INFO -  jetbrains.buildServer.STARTUP - Created a new database.properties file with settings specified from Web UI.
+[2019-08-14 17:29:49,633]   INFO -  jetbrains.buildServer.STARTUP - Current stage: Initializing TeamCity server components
+[2019-08-14 17:29:49,731]   INFO -  jetbrains.buildServer.STARTUP - Starting the main application
+[2019-08-14 17:29:49,837]   INFO - ebDispatcherApplicationContext - Refreshing TeamCity Root WebApplicationContext: startup date [Wed Aug 14 17:29:49 GMT 2019]; root of context hierarchy
+[2019-08-14 17:29:49,934]   INFO - MainTeamCityApplicationContext - Refreshing WebApplicationContext for namespace 'buildServer-servlet': startup date [Wed Aug 14 17:29:49 GMT 2019]; parent: TeamCity Root WebApplicationContext
+[2019-08-14 17:29:59,649]   INFO -   jetbrains.buildServer.SERVER - Loading test names index from database...
+[2019-08-14 17:29:59,656]   INFO -   jetbrains.buildServer.SERVER - Finished loading test names index in 4ms. Tests in the index: 0
+[2019-08-14 17:29:59,716]   INFO -   jetbrains.buildServer.SERVER - Build history cache size is set to 10000 entries
+[2019-08-14 17:30:00,430]   INFO -   jetbrains.buildServer.SERVER - Start initializing build durations cache...
+[2019-08-14 17:30:00,435]   INFO -   jetbrains.buildServer.SERVER - Finished initializing build durations cache, time spent: 5ms
+[2019-08-14 17:30:01,401]   INFO -   jetbrains.buildServer.SERVER - Loading history of VCS changes...
+[2019-08-14 17:30:01,483]   INFO -   jetbrains.buildServer.SERVER - Done loading history of VCS changes: 0 changes loaded in 79ms
+[2019-08-14 17:30:05,490]   WARN -   jetbrains.buildServer.UPDATE - Auto update is disabled: not supported for the 'docker-ubuntu' distribution.
+[2019-08-14 17:30:10,655]   INFO -   jetbrains.buildServer.SERVER - Applying memory thresholds for Memory Usage Monitor: storing 100 last measurements; time between measurements: 3000ms. Thresholds: {TC_TOTAL_MEMORY_USAGE_KEY=90.0, PS Old Gen=90.0}
+[2019-08-14 17:30:16,232]   INFO - til.ChildSpringContextLoader$1 - Refreshing SubContext (BuildAgentUpgrade): startup date [Wed Aug 14 17:30:16 GMT 2019]; parent: WebApplicationContext for namespace 'buildServer-servlet'
+[2019-08-14 17:30:16,364]   INFO -  jetbrains.buildServer.STARTUP - TeamCity Spring context contains 1538 beans
+[2019-08-14 17:30:17,659]   INFO -  jetbrains.buildServer.STARTUP - TeamCity Spring context created in 27s,742ms
+[2019-08-14 17:30:17,810]   INFO -   jetbrains.buildServer.SERVER - Root project configuration files created
+[2019-08-14 17:30:17,822]   INFO - ojects.ProjectConfigFilesCache - Looking for all project configuration files in: /data/teamcity_server/datadir/config/projects
+[2019-08-14 17:30:17,839]   INFO - ojects.ProjectConfigFilesCache - Found 2 project configuration files
+[2019-08-14 17:30:17,842]   INFO - ojects.ProjectConfigFilesCache - Checking that project configuration files caches are up-to-date...
+[2019-08-14 17:30:17,852]   INFO - ojects.ProjectConfigFilesCache - Found 1 projects with out of date configuration files caches
+[2019-08-14 17:30:17,854]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-14 17:30:17,904]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-14 17:30:18,061]   INFO - ins.files.ServerPluginUnpacker - Unpacking zipped plugins from '/opt/teamcity/webapps/ROOT/WEB-INF/plugins'  to '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked'
+[2019-08-14 17:30:19,254]   INFO -   jetbrains.buildServer.SERVER - Start pre-compiling JSP files...
+[2019-08-14 17:30:21,650]   INFO - ins.files.ServerPluginUnpacker - Unpacking zipped plugins from '/data/teamcity_server/datadir/plugins'  to '/data/teamcity_server/datadir/system/caches/plugins.unpacked'
+[2019-08-14 17:30:21,651]   INFO - rver.plugins.PluginManagerImpl - ===========================================================
+[2019-08-14 17:30:21,651]   INFO - rver.plugins.PluginManagerImpl - Plugins initialization started...
+[2019-08-14 17:30:21,651]   INFO - rver.plugins.PluginManagerImpl - Scanning plugins folders
+[2019-08-14 17:30:21,651]   INFO - .plugins.files.JarSearcherBase - Scanning plugin folder: /opt/teamcity/webapps/ROOT/WEB-INF/plugins
+[2019-08-14 17:30:21,951]   INFO - .plugins.files.JarSearcherBase - Scanning plugin folder: /data/teamcity_server/datadir/plugins
+[2019-08-14 17:30:21,952]   INFO - ins.files.ServerPluginUnpacker - Unpacking zipped plugins from '/data/teamcity_server/datadir/plugins'  to '/data/teamcity_server/datadir/system/caches/plugins.unpacked'
+[2019-08-14 17:30:22,082]   INFO - rver.plugins.PluginManagerImpl - Found 98 bundled plugins: [agent-system-info (ver:66342), agent.push (ver:66342), Ant (ver:66342), ant-net-tasks (ver:66342), Apache Ant (ver:66342), artifactsSizeStatistics (ver:66342), bugzilla (ver:66342), buildDurationStatisticsPlugin (ver:66342), clearcase (ver:66342), cloud-amazon (ver:66342), commandLineRunner (ver:66342), commit-status-publisher (ver:66342), configs-dsl (ver:66342), coverage (ver:66342), cvs (ver:66342), data-dir-browse (ver:66342), deploy-runner (ver:66342), docker-support (ver:66342), dotnet-tools (ver:66342), dotnet.cli (ver:66342), dotNetRunners (ver:66342), Duplicator (ver:66342), eclipse-plugin-distributor (ver:66342), email (ver:66342), environment-fetcher (ver:66342), feed (ver:66342), file-content-replacer (ver:66342), flaky-test-detector (ver:66342), FxCop (ver:66342), gant-tool (ver:66342), GAntRunner (ver:66342), golang (ver:66342), gradle-runner (ver:66342), idea-runner-runtime-libs (ver:66342), idea-tool (ver:66342), Inspection (ver:66342), intellij-plugin-distributor (ver:66342), investigations-auto-assigner (ver:66342), Ipr (ver:66342), jabber (ver:66342), Java Crashed detector (ver:66342), java-dowser (ver:66342), jetbrains.git (ver:66342), jira (ver:66342), jps-tool (ver:66342), jvm-update (ver:66342), ldap (ver:66342), Maven2 (ver:66342), mercurial (ver:66342), metarunner (ver:66342), nt-domain-login (ver:66342), nuget (ver:66342), overview-plugin (ver:66342), perfmon (ver:66342), perforce (ver:66342), powershell-runner (ver:66342), priority-queue (ver:66342), pull-requests (ver:66342), queue-pauser (ver:66342), rake-runner (ver:66342), remoteAccess (ver:66342), reset-password (ver:66342), rest-api (ver:66342), rest-api-2017.1 (ver:66342), rest-api-2017.2 (ver:66342), rest-api-6.0 (ver:66342), rest-api-7.0 (ver:66342), rest-api-8.1 (ver:66342), rest-api-9.0 (ver:66342), rest-api-9.1 (ver:66342), rest-api-contrib (ver:66342), rest-api-contrib-2017.1 (ver:66342), rest-api-contrib-2017.2 (ver:66342), rest-api-contrib-9.0 (ver:66342), rest-api-contrib-9.1 (ver:66342), s3-artifact-storage (ver:66342), sbt-runner (ver:66342), searchBuildByNumber (ver:66342), ssh-manager (ver:66342), stacktraces (ver:66342), starteam (ver:66342), svn (ver:66342), swabra (ver:66342), TeamCity.BitBucketIssues (ver:66342), TeamCity.GitHubIssues (ver:66342), TeamCity.SharedResources (ver:66342), tfs (ver:66342), unified-ui (ver:66342), usage-statistics (ver:66342), vault-vcs (ver:66342), visualstudiotest (ver:66342), vs-addin-distributor (ver:66342), vsphere (ver:66342), WindowsTray (ver:66342), WindowsTray-distributor (ver:66342), xcode-runner (ver:66342), xml-report-plugin (ver:66342), youtrack (ver:66342)]
+[2019-08-14 17:30:22,722]   INFO - rver.plugins.PluginsCollection - Load shared classloader for 31 plugins [Ant, ant-net-tasks, Apache Ant, artifactsSizeStatistics, buildDurationStatisticsPlugin, clearcase, commandLineRunner, coverage, cvs, email, environment-fetcher, feed, gant-tool, GAntRunner, gradle-runner, intellij-plugin-distributor, jabber, Java Crashed detector, jps-tool, ldap, perfmon, priority-queue, remoteAccess, sbt-runner, searchBuildByNumber, stacktraces, starteam, swabra, WindowsTray, xml-report-plugin, youtrack]
+[2019-08-14 17:30:22,874]   INFO - rver.plugins.PluginsCollection - Load standalone classloaders for 67 plugins [agent-system-info, agent.push, bugzilla, cloud-amazon, commit-status-publisher, configs-dsl, data-dir-browse, deploy-runner, docker-support, dotnet-tools, dotnet.cli, dotNetRunners, Duplicator, eclipse-plugin-distributor, file-content-replacer, flaky-test-detector, FxCop, golang, idea-runner-runtime-libs, idea-tool, Inspection, investigations-auto-assigner, Ipr, java-dowser, jetbrains.git, jira, jvm-update, Maven2, mercurial, metarunner, nt-domain-login, nuget, overview-plugin, perforce, powershell-runner, pull-requests, queue-pauser, rake-runner, reset-password, rest-api, rest-api-2017.1, rest-api-2017.2, rest-api-6.0, rest-api-7.0, rest-api-8.1, rest-api-9.0, rest-api-9.1, rest-api-contrib, rest-api-contrib-2017.1, rest-api-contrib-2017.2, rest-api-contrib-9.0, rest-api-contrib-9.1, s3-artifact-storage, ssh-manager, svn, TeamCity.BitBucketIssues, TeamCity.GitHubIssues, TeamCity.SharedResources, tfs, unified-ui, usage-statistics, vault-vcs, visualstudiotest, vs-addin-distributor, vsphere, WindowsTray-distributor, xcode-runner]
+[2019-08-14 17:30:35,408]   INFO -   jetbrains.buildServer.SERVER - Creating new Lucene index (version.24): org.apache.lucene.store.NIOFSDirectory@/data/teamcity_server/datadir/system/caches/search lockFactory=org.apache.lucene.store.NativeFSLockFactory@3c6669eb
+[2019-08-14 17:30:41,205]   INFO - e.RemoteMavenServerManagerImpl - Starting external maven service
+[2019-08-14 17:30:42,816]   INFO - e.RemoteMavenServerManagerImpl - Remote server is connected.
+[2019-08-14 17:30:43,455]   INFO -   jetbrains.buildServer.SERVER - Restoring flaky tests status from finished builds started after: 2019-08-07 17:30:43.430
+[2019-08-14 17:30:53,482]   INFO - rver.plugins.PluginManagerImpl - Plugins initialization completed (98 plugins loaded): [agent-system-info (ver:66342), agent.push (ver:66342), Ant (ver:66342), ant-net-tasks (ver:66342), Apache Ant (ver:66342), artifactsSizeStatistics (ver:66342), bugzilla (ver:66342), buildDurationStatisticsPlugin (ver:66342), clearcase (ver:66342), cloud-amazon (ver:66342), commandLineRunner (ver:66342), commit-status-publisher (ver:66342), configs-dsl (ver:66342), coverage (ver:66342), cvs (ver:66342), data-dir-browse (ver:66342), deploy-runner (ver:66342), docker-support (ver:66342), dotnet-tools (ver:66342), dotnet.cli (ver:66342), dotNetRunners (ver:66342), Duplicator (ver:66342), eclipse-plugin-distributor (ver:66342), email (ver:66342), environment-fetcher (ver:66342), feed (ver:66342), file-content-replacer (ver:66342), flaky-test-detector (ver:66342), FxCop (ver:66342), gant-tool (ver:66342), GAntRunner (ver:66342), golang (ver:66342), gradle-runner (ver:66342), idea-runner-runtime-libs (ver:66342), idea-tool (ver:66342), Inspection (ver:66342), intellij-plugin-distributor (ver:66342), investigations-auto-assigner (ver:66342), Ipr (ver:66342), jabber (ver:66342), Java Crashed detector (ver:66342), java-dowser (ver:66342), jetbrains.git (ver:66342), jira (ver:66342), jps-tool (ver:66342), jvm-update (ver:66342), ldap (ver:66342), Maven2 (ver:66342), mercurial (ver:66342), metarunner (ver:66342), nt-domain-login (ver:66342), nuget (ver:66342), overview-plugin (ver:66342), perfmon (ver:66342), perforce (ver:66342), powershell-runner (ver:66342), priority-queue (ver:66342), pull-requests (ver:66342), queue-pauser (ver:66342), rake-runner (ver:66342), remoteAccess (ver:66342), reset-password (ver:66342), rest-api (ver:66342), rest-api-2017.1 (ver:66342), rest-api-2017.2 (ver:66342), rest-api-6.0 (ver:66342), rest-api-7.0 (ver:66342), rest-api-8.1 (ver:66342), rest-api-9.0 (ver:66342), rest-api-9.1 (ver:66342), rest-api-contrib (ver:66342), rest-api-contrib-2017.1 (ver:66342), rest-api-contrib-2017.2 (ver:66342), rest-api-contrib-9.0 (ver:66342), rest-api-contrib-9.1 (ver:66342), s3-artifact-storage (ver:66342), sbt-runner (ver:66342), searchBuildByNumber (ver:66342), ssh-manager (ver:66342), stacktraces (ver:66342), starteam (ver:66342), svn (ver:66342), swabra (ver:66342), TeamCity.BitBucketIssues (ver:66342), TeamCity.GitHubIssues (ver:66342), TeamCity.SharedResources (ver:66342), tfs (ver:66342), unified-ui (ver:66342), usage-statistics (ver:66342), vault-vcs (ver:66342), visualstudiotest (ver:66342), vs-addin-distributor (ver:66342), vsphere (ver:66342), WindowsTray (ver:66342), WindowsTray-distributor (ver:66342), xcode-runner (ver:66342), xml-report-plugin (ver:66342), youtrack (ver:66342)]
+[2019-08-14 17:30:53,485]   INFO - rver.plugins.PluginManagerImpl - ===========================================================
+[2019-08-14 17:30:53,498]   INFO -   jetbrains.buildServer.SERVER - TeamCity plugins loaded in 35s,441ms
+[2019-08-14 17:31:00,587]   INFO -   jetbrains.buildServer.SERVER - Start loading server configuration...
+[2019-08-14 17:31:00,749]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-08-14 17:31:00,750]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 3:00 daily
+[2019-08-14 17:31:00,786]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-15 03:00:00.000
+[2019-08-14 17:31:00,786]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-08-14 17:31:01,205]   INFO -   jetbrains.buildServer.SERVER - Parsing 2 configuration files...
+[2019-08-14 17:31:01,353]   INFO -   jetbrains.buildServer.SERVER - Loading data from parsed configuration files...
+[2019-08-14 17:31:02,114]   INFO - serverSide.impl.BuildQueueImpl - Build queue loaded: 0 builds
+[2019-08-14 17:31:02,115]   INFO -   jetbrains.buildServer.SERVER - Server configuration loaded in: 1s,528ms
+[2019-08-14 17:31:02,890]   INFO - r.configs.dsl.DslPluginManager - Plugin sources are packed in 333ms
+[2019-08-14 17:31:13,326]   INFO -   jetbrains.buildServer.SERVER - TeamCity initialized, server UUID: b28d114f-ab73-4a0d-b2f8-7cef1d3d8f50, URL: http://localhost
+[2019-08-14 17:31:13,326]   INFO -   jetbrains.buildServer.SERVER - TeamCity is running in professional mode
+[2019-08-14 17:31:13,327]   INFO - utors.DeferringExecutorService - 0 commands sent to execution
+[2019-08-14 17:31:13,327]   INFO - utors.DeferringExecutorService - 0 commands sent to execution
+[2019-08-14 17:31:13,359]   INFO - utors.DeferringExecutorService - 4 commands sent to execution
+[2019-08-14 17:31:13,393]   INFO - utors.DeferringExecutorService - 3 commands sent to execution
+[2019-08-14 17:31:13,393]   INFO - utors.DeferringExecutorService - 0 commands sent to execution
+[2019-08-14 17:31:13,393]   INFO - utors.DeferringExecutorService - 0 commands sent to execution
+[2019-08-14 17:31:13,454]   INFO -   jetbrains.buildServer.SERVER - Start pre-fetching changes for 0 build configurations...
+[2019-08-14 17:31:13,462]   INFO -   jetbrains.buildServer.SERVER - Done pre-fetching changes for 0 build configurations in 8ms
+[2019-08-14 17:31:13,462]   INFO -   jetbrains.buildServer.SERVER - Start calculating branches for 0 build configurations...
+[2019-08-14 17:31:13,462]   INFO -   jetbrains.buildServer.SERVER - Done calculating branches for 0 build configurations (0 branches found) in < 1ms
+[2019-08-14 17:31:13,462]   INFO -   jetbrains.buildServer.SERVER - Start calculating status for 0 build configurations...
+[2019-08-14 17:31:13,462]   INFO -   jetbrains.buildServer.SERVER - Done calculating branches for 0 build configurations in < 1ms
+[2019-08-14 17:31:13,462]   INFO -   jetbrains.buildServer.SERVER - Start prefetching build statistic metrics for 0 build configurations...
+[2019-08-14 17:31:13,463]   INFO -   jetbrains.buildServer.SERVER - Done prefetching build statistic metrics for 0 build configurations in < 1ms
+[2019-08-14 17:31:13,477]   INFO -   jetbrains.buildServer.SERVER - Flaky test detector: 0 historical test invocations in 0 builds replayed in < 1ms (sql queries executed in < 1ms); 0 test invocations ignored (0%)
+[2019-08-14 17:31:13,477]   INFO -   jetbrains.buildServer.SERVER - Flaky test detector: started processing tests queue. Current deferring tests count: 0
+[2019-08-14 17:31:13,477]   INFO -   jetbrains.buildServer.SERVER - Flaky test detector: finished processing deferred tests queue
+[2019-08-14 17:31:13,752]   INFO -   jetbrains.buildServer.SERVER - Super user authentication token: 4466715549805010116 (use empty username with the token as the password to access the server)
+[2019-08-14 17:31:13,770]   INFO - .agent.AgentZipVersionProvider - Build agent distribution '/opt/teamcity/webapps/ROOT/update/buildAgent.zip' state initialized. Last modified: 30.07.2019 13:58:10, size: 19150615
+[2019-08-14 17:31:13,771]   INFO -   jetbrains.buildServer.SERVER - Start loading test runs for investigations and mutes into cache...
+[2019-08-14 17:31:13,864]   INFO - projects.ProjectEventsNotifier - Detected 1 possibly modified projects on disk, will generate projectConfigChanged events for all of them
+[2019-08-14 17:31:13,865]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-14 17:31:13,880]   INFO -   jetbrains.buildServer.SERVER - Start loading "failed to start" build configuration errors in background
+[2019-08-14 17:31:13,880]   INFO -   jetbrains.buildServer.SERVER - Done loading "failed to start" build configuration errors: loaded 0 problems in < 1ms
+[2019-08-14 17:31:13,940]   INFO -   jetbrains.buildServer.SERVER - Done loading test runs. Loaded 0 tests in 0 scopes in 144ms, cache size: 0, failed test runs: 0, successful test runs: 0
+[2019-08-14 17:31:14,105]   INFO - ority.PriorityClassManagerImpl - Loading priority classes from the configuration file: /data/teamcity_server/datadir/config/build-queue-priorities.xml
+[2019-08-14 17:31:14,155]   INFO -   jetbrains.buildServer.SERVER - Ordering strategy changed to jetbrains.buildServer.serverSide.priority.BuildQueuePriorityOrdering
+[2019-08-14 17:31:14,156]   INFO - verSide.impl.BuildServerRunner - Start daemons
+[2019-08-14 17:31:14,188]   INFO - tbrains.buildServer.ACTIVITIES - Server Started
+[2019-08-14 17:31:14,205]   INFO -  jetbrains.buildServer.STARTUP - Startup duration: 2m:07s
+[2019-08-14 17:31:14,205]   INFO -  jetbrains.buildServer.STARTUP - Current stage: System is ready
+[2019-08-14 17:31:14,630]   INFO - .agent.AgentZipVersionProvider - Build agent distribution version is set to 66342, hash=SHA-1k3wnO+SxKTawHrZxA3Q2Z8KpvVI=
+[2019-08-14 17:31:27,871]   INFO - nt.AgentPluginsVersionProvider - State of agent plugin packages is initialized in 13s,227ms: new plugin 'JetBrains.dotCover.CommandLineTools.bundled.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/dotNetRunners/bundled-tools/JetBrains.dotCover.CommandLineTools.bundled.zip', hash: 'SHA-1mkclrN1Cq0lg1MWTCb/R/7ZdSXE='; new plugin 'agentSystemInfo.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/agentSystemInfo/agent/agentSystemInfo.zip', hash: 'SHA-1nQr2jDyfX/2dgo2wGLA1i63CBXI='; new plugin 'amazonEC2.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/cloud-amazon/agent/amazonEC2.zip', hash: 'SHA-1rEsBH4cIEy8yCPtX5v0G065xw+8='; new plugin 'ant-net-tasks.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant-net-tasks/agent/ant-net-tasks.zip', hash: 'SHA-1GSYCtx/mVg0i3c86/jTaaZCntx8='; new plugin 'ant.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant-tool/agent/ant.zip', hash: 'SHA-14VlDan9B0xuF2oV4OUphFdCQ+n0='; new plugin 'antPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant/agent/antPlugin.zip', hash: 'SHA-15rp2Cy5xFuqK+R4ozF3BKvmyJzo='; new plugin 'clearcase-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/clearcase/agent/clearcase-agent.zip', hash: 'SHA-1G8qb0atKdRT2WVHTI39cvZ5Hyrw='; new plugin 'cloud-vmware-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/cloud-vmware/agent/cloud-vmware-agent.zip', hash: 'SHA-1CwhRIkumIMZBDnsQTVbM+34a/d4='; new plugin 'commandLineRunner.jar' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/commandLineRunner/agent/commandLineRunner.jar', hash: 'SHA-1Qx5F4NZzLpvqJXqdsORe5Ojf5z0='; new plugin 'coveragePlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/coverage/agent/coveragePlugin.zip', hash: 'SHA-1drSOYO42/8RXFJbPJkgQgXEOe2c='; new plugin 'crashDetector.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/crash-detector/agent/crashDetector.zip', hash: 'SHA-1eU/rUo5F02BuzvBqoW8UnQiSgiE='; new plugin 'cvsAgent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/cvs-support/agent/cvsAgent.zip', hash: 'SHA-1PiirVa/C3AoJqZKIkwRKFs3tuW4='; new plugin 'deploy-runner-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/deploy-runner/agent/deploy-runner-agent.zip', hash: 'SHA-1KNxZUgnF1Il73iqereEIPCWReLI='; new plugin 'docker-support.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/docker-support/agent/docker-support.zip', hash: 'SHA-1ZGYKKgkstU7ZHsNHC9Wi6ra8zvo='; new plugin 'dotNetPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/dotNetRunners/agent/dotNetPlugin.zip', hash: 'SHA-1KF8aa2HccuQuwspztwd7QZ8legg='; new plugin 'dotNetRunners.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/dotNetRunners/agent/dotNetRunners.zip', hash: 'SHA-174Z45s7ZTp7pgJpoOSgjR/4n8pU='; new plugin 'dotnet-tools-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/dotnet-tools/agent/dotnet-tools-agent.zip', hash: 'SHA-1HfEbwdU5GKy1odtanMpV8VbaXaI='; new plugin 'dotnet.cli.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/dotnet.cli/agent/dotnet.cli.zip', hash: 'SHA-1NS3b3FbyLlmdu0ymeu9kAnk6VOY='; new plugin 'duplicatePlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Duplicator/agent/duplicatePlugin.zip', hash: 'SHA-1nT77Z2mUb6P1Z2paWGn6+HfkElA='; new plugin 'environment-fetcher-agent.jar' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/environment-fetcher/agent/environment-fetcher-agent.jar', hash: 'SHA-1+oqppfcJY6CTmCXgfSdJ/Nsh2FQ='; new plugin 'file-content-replacer.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/file-content-replacer/agent/file-content-replacer.zip', hash: 'SHA-1cQQZ1nEGs/PYvsSYbL87esTWB18='; new plugin 'fxcop.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/fxcop/agent/fxcop.zip', hash: 'SHA-1AB+uOKsWEmRa8/4Wmw3C+YpOniA='; new plugin 'gant.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/gant-tool/agent/gant.zip', hash: 'SHA-1ZWxQvvFnI+em0AQsnhghnmu8CL8='; new plugin 'gantPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/gantRunner/agent/gantPlugin.zip', hash: 'SHA-1S/siZF4XkrnjCAFG5icAMWE72BU='; new plugin 'golang-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/golang/agent/golang-agent.zip', hash: 'SHA-1PClzqXSJNKcqUJGH5/dL6Dc7+Ns='; new plugin 'gradle-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/gradle/agent/gradle-runner.zip', hash: 'SHA-1o7dW96Ipyp22FJRnzcPtp92J4m8='; new plugin 'idea-runner-runtime-libs.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/idea-runner-runtime-libs/agent/idea-runner-runtime-libs.zip', hash: 'SHA-1OaNt37L4KDl+oPc2sodo3kjF6QE='; new plugin 'idea-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ipr-runner/agent/idea-runner.zip', hash: 'SHA-1jEwOFwZ7ul4IXyVonU3GY2st+bI='; new plugin 'idea.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/idea-tool/bundled/idea.zip', hash: 'SHA-1LjxUJGNNMomOlYt+kB3k5LIp7OQ='; new plugin 'inspectionPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/server-side-inspections/agent/inspectionPlugin.zip', hash: 'SHA-1Sj09qj6vGdrexym3TvykW2HdivY='; new plugin 'jacoco.0.7.5.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/coverage/bundled/jacoco.0.7.5.zip', hash: 'SHA-1ibavHabbBiSN7a4/LcbFrNhAI8I='; new plugin 'jacoco.0.8.2.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/coverage/bundled/jacoco.0.8.2.zip', hash: 'SHA-1ZTGpBaxJss/h6AaFcoWqnSiZXFM='; new plugin 'jacoco.0.8.4.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/coverage/bundled/jacoco.0.8.4.zip', hash: 'SHA-1mU7sbIt6oWm+VitUwYlrymBp1H4='; new plugin 'java-dowser.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/java-dowser/agent/java-dowser.zip', hash: 'SHA-1bS4P6z0UgaH5fgOyaN+N20VVsos='; new plugin 'jetbrains.git.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/jetbrains.git/agent/jetbrains.git.zip', hash: 'SHA-10ZAI1qog8/7/r+kn6r2xQhRaD1I='; new plugin 'jetbrains.resharper-clt.bundled.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/dotnet-tools/server/bundled-tool/jetbrains.resharper-clt.bundled.zip', hash: 'SHA-1u0gUYkkwwHsr37bsFo3v5hBvsNY='; new plugin 'jps.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/jps-tool/agent/jps.zip', hash: 'SHA-1+UZBXyideljaI3k65gFI54l3mCk='; new plugin 'junitPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant/agent/junitPlugin.zip', hash: 'SHA-1azAi6lQfU9ssimzCBtoIqfo8Ry4='; new plugin 'jvm-update.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/jvm-update/agent/jvm-update.zip', hash: 'SHA-1et7axuNDtleITGFnqV/NOKePkGU='; new plugin 'maven.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven.zip', hash: 'SHA-1Cgufvv/fZxZoInPqVZh8m1oBLHA='; new plugin 'maven3.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3.zip', hash: 'SHA-1WyE6ww8JFNRn7vHobyZ+hxwR+x8='; new plugin 'maven3_1.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3_1.zip', hash: 'SHA-1UYYRR2CaD+FgP3THZ9Ik+a+Ty1A='; new plugin 'maven3_2.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3_2.zip', hash: 'SHA-1eY2PmQ8vGbK/ROQhLfu2rzxz3Ok='; new plugin 'maven3_3.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3_3.zip', hash: 'SHA-1qNxo+22RJTGiKf71/Irfum+16DQ='; new plugin 'maven3_5.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/bundled-tools/maven3_5.zip', hash: 'SHA-1mSkl6w9vYUqH8ugZRoLXc76qBQ8='; new plugin 'mavenPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/Maven2/agent/mavenPlugin.zip', hash: 'SHA-1N+FGk7OA8/me5B1nEffBOi5sSOY='; new plugin 'mercurial.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/mercurial/agent/mercurial.zip', hash: 'SHA-1s0vuio9f1elj25unh5Ta8zN+H+0='; new plugin 'meta-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/meta-runner/agent/meta-runner.zip', hash: 'SHA-1Qd8PeivJBgwYLzEtUP7y/vztAlY='; new plugin 'nuget-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/dotNetPackagesSupport/agent/nuget-agent.zip', hash: 'SHA-1Zru+KI6+OZz2V3/yCVJm2/hCdRk='; new plugin 'perfmon-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/perfmon/agent/perfmon-agent.zip', hash: 'SHA-1B3Sen0CIul0MSZYXHEK4Om8o1Ds='; new plugin 'perforce-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/perforce/agent/perforce-agent.zip', hash: 'SHA-1Jw/XmcmtchEs6y7AEoHxxRsnxIk='; new plugin 'powershell-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/powershell/agent/powershell-agent.zip', hash: 'SHA-1Sc5DbQPONH4aX9zndnGWVomOG6I='; new plugin 'rake-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/rake-runner/agent/rake-runner.zip', hash: 'SHA-10znoDIXk7lLo5b02DlsI7ZpL6Is='; new plugin 'remoteAccess.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/remoteAccess/agent/remoteAccess.zip', hash: 'SHA-1qXpFp2bqYKsC8g0Bf9ck1ucKWuM='; new plugin 's3-artifact-storage-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/s3-artifact-storage/agent/s3-artifact-storage-agent.zip', hash: 'SHA-1YgEB+CB0ZXE63YlAnQI2d+XO9Hg='; new plugin 'sbt-runner-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/sbt-runner/agent/sbt-runner-agent.zip', hash: 'SHA-1ph7TnbZjf4/S6HY7ztt2zaVTuto='; new plugin 'ssh-manager.jar' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ssh-manager/agent/ssh-manager.jar', hash: 'SHA-1wiIPaXOk3Rl6OQ0WV8BeL6gzfXI='; new plugin 'stacktracesPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/stacktraces/agent/stacktracesPlugin.zip', hash: 'SHA-1s2WUVyDF6kfqcbKL+0W+0nq7FZk='; new plugin 'svnAgent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/svn/agent/svnAgent.zip', hash: 'SHA-1lwizQQER9ki4LzdSpyuDfhqAvaQ='; new plugin 'swabra.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/swabra/agent/swabra.zip', hash: 'SHA-16JPziZ5FHQtGHZ+g1gofLkl7n5w='; new plugin 'testNGPlugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/ant/agent/testNGPlugin.zip', hash: 'SHA-17tlB/Hn8HMs26BzdaKQyiQzCF6w='; new plugin 'tfs-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/tfs/agent/tfs-agent.zip', hash: 'SHA-1v688YVRqN/nxTgQ7NXNlLjZ1PuA='; new plugin 'visualstudiotest-agent.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/visualstudiotest/agent/visualstudiotest-agent.zip', hash: 'SHA-1r3pUpOw6sDVRNfZVEjz32iCZKaQ='; new plugin 'xcode-runner.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/xcode-runner/agent/xcode-runner.zip', hash: 'SHA-1kGJp61T3MuCyRDDQ2KRkbm5wYoY='; new plugin 'xml-report-plugin.zip' file: '/opt/teamcity/webapps/ROOT/WEB-INF/plugins/.unpacked/xml-report-plugin/agent/xml-report-plugin.zip', hash: 'SHA-1OUgwDb2lNsEDodPi0AO+jsYzMGg='
+[2019-08-14 17:32:56,006]   INFO -   jetbrains.buildServer.SERVER - JSP pre-compilation failed: http://localhost:8111/project/_issueTrackerDisplay.jspf?jsp_precompile=true after 6 attempts, tried the following URLs: http://localhost:8111/project/_issueTrackerDisplay.jspf?jsp_precompile=true, http://172.17.0.2:8111/project/_issueTrackerDisplay.jspf?jsp_precompile=true (enable debug for more details)
+[2019-08-14 17:33:08,855]   INFO - r.configs.dsl.DslPluginManager - Plugins dsl compiled in 2m:05s,961ms
+[2019-08-14 17:33:29,581]   INFO -   jetbrains.buildServer.SERVER - JSP pre-compilation finished, pre-compiled 829 files in 3m:10s,326ms
+[2019-08-14 17:34:41,353]   INFO - r.configs.dsl.DslPluginManager - DSL documentation (http://localhost:8111/app/dsl-documentation/index.html) generated in 92405ms
+[2019-08-14 17:37:11,763]   INFO -   jetbrains.buildServer.SERVER - Unable to create user 'alex': Passwords mismatch
+[2019-08-14 17:37:24,237]   INFO -   jetbrains.buildServer.SERVER - Start loading cache of build committers...
+[2019-08-14 17:37:24,242]   INFO -   jetbrains.buildServer.SERVER - Done loading cache of build committers
+[2019-08-14 17:37:24,241]   INFO - tbrains.buildServer.ACTIVITIES - New user created: 'alex' {id=1}
+[2019-08-14 17:37:24,302]   INFO -   jetbrains.buildServer.SERVER - Loading roles from the configuration file: /data/teamcity_server/datadir/config/roles-config.xml
+[2019-08-14 17:38:34,629]   INFO -    jetbrains.buildServer.AGENT - Removing authorization token '' from agent with no name: "" {id=0, protocol=unidirectional, host=172.17.0.3:9090, agentTypeId=0, registered since 2019-08-14 17:38:34.623}
+[2019-08-14 17:38:34,650]   INFO -    jetbrains.buildServer.AGENT - Set generated name "ip_172.17.0.3" to agent "" {id=1} as it had no name defined.
+[2019-08-14 17:38:34,654]   INFO -    jetbrains.buildServer.AGENT - New agent authorization token "cd4d2ee2f2170205f1277568f7b3cce9" was generated for agent "ip_172.17.0.3" {id=1}
+[2019-08-14 17:38:34,674]   INFO -    jetbrains.buildServer.AGENT - Upgrade of agent "ip_172.17.0.3" {id=1} has been scheduled, agent version: 66342, plugins signature: NA. Current version: 66342, plugins signature: 66342-md5-6317c3f717266dc0e76eadc2c6ef9a21
+[2019-08-14 17:38:34,711]   INFO -    jetbrains.buildServer.AGENT - Agent has been registered: "ip_172.17.0.3" {id=1, protocol=unidirectional, host=172.17.0.3:9090, agentTypeId=1, pool=Default, registered since 2019-08-14 17:38:34.623}, not running a build
+[2019-08-14 17:38:34,731]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'b2Okh5D...' was created, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 17:38:34,889]   WARN -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} is unauthorized on registration
+[2019-08-14 17:38:35,409]   INFO -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} has confirmed upgrade.
+[2019-08-14 17:38:35,617]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'b2Okh5D...' was closed, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 17:38:35,630]   INFO -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} has been unregistered. Reason: Agent has unregistered (will upgrade)
+[2019-08-14 17:39:04,726]   INFO -    jetbrains.buildServer.AGENT - Agent has been registered: "ip_172.17.0.3" {id=1, protocol=unidirectional, host=172.17.0.3:9090, agentTypeId=1, pool=Default, registered since 2019-08-14 17:39:04.578}, not running a build
+[2019-08-14 17:39:04,739]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'Qqujj3M...' was created, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 17:39:04,827]   WARN -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} is unauthorized on registration
+[2019-08-14 17:41:28,909]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "GitDevOps03 {id=GitDevOps03, internal id=project1}" was created by "'alex' (Oleksandr) {id=1}"
+[2019-08-14 17:41:28,946]   INFO - s.buildServer.ACTIVITIES.AUDIT - vcs_root_create: VCS root ""https://github.com/alexshegera/GitDevOps03.git#refs/heads/master" {internal id=1, id=GitDevOps03_HttpsGithubComAlexshegeraGitDevOps03gitRefsHeadsMaster, description: "https://github.com/alexshegera/GitDevOps03.git#refs/heads/master"}" was created by "'alex' (Oleksandr) {id=1}" with comment "In project: GitDevOps03"
+[2019-08-14 17:41:29,102]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1}" was created by "'alex' (Oleksandr) {id=1}"
+[2019-08-14 17:41:41,752]   INFO - projects.ProjectEventsNotifier - Processing projectCreated for GitDevOps03
+[2019-08-14 17:41:41,756]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-14 17:41:41,757]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-14 17:41:41,764]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-14 17:42:00,066]   INFO -   jetbrains.buildServer.SERVER - Test connection for root "jetbrains.git" {instance id=-3, parent internal id=-1, parent id=dummy_jetbrains.git, description: "https://github.com/alexshegera/GitDevOps03.git#refs/heads/master"} is initiated by user 'alex' (Oleksandr) {id=1}
+[2019-08-14 17:42:14,757]   INFO - projects.ProjectEventsNotifier - Processing vcsRootPersisted for GitDevOps03
+[2019-08-14 17:42:14,758]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-14 17:42:14,761]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-14 17:42:14,767]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-14 17:43:58,898]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'Qqujj3M...' was closed, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 17:43:58,900]   INFO -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} has been unregistered. Reason: Agent has unregistered
+[2019-08-14 17:47:43,094]   INFO -    jetbrains.buildServer.AGENT - Upgrade of agent "ip_172.17.0.3" {id=1} has been scheduled, agent version: 66342, plugins signature: NA. Current version: 66342, plugins signature: 66342-md5-6317c3f717266dc0e76eadc2c6ef9a21
+[2019-08-14 17:47:43,098]   INFO -    jetbrains.buildServer.AGENT - Agent has been registered: "ip_172.17.0.3" {id=1, protocol=unidirectional, host=172.17.0.3:9090, agentTypeId=1, pool=Default, registered since 2019-08-14 17:47:43.091}, not running a build
+[2019-08-14 17:47:43,100]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'Ue3J6es...' was created, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 17:47:43,168]   WARN -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} is unauthorized on registration
+[2019-08-14 17:47:43,692]   INFO -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} has confirmed upgrade.
+[2019-08-14 17:47:43,757]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'Ue3J6es...' was closed, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 17:47:43,759]   INFO -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} has been unregistered. Reason: Agent has unregistered (will upgrade)
+[2019-08-14 17:48:11,445]   INFO -    jetbrains.buildServer.AGENT - Agent has been registered: "ip_172.17.0.3" {id=1, protocol=unidirectional, host=172.17.0.3:9090, agentTypeId=1, pool=Default, registered since 2019-08-14 17:48:11.408}, not running a build
+[2019-08-14 17:48:11,450]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session '440RJYm...' was created, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 17:48:11,531]   WARN -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} is unauthorized on registration
+[2019-08-14 17:49:09,633]   INFO - s.buildServer.ACTIVITIES.AUDIT - agent_authorize: Agent ""ip_172.17.0.3" {id=1}" was authorized by "'alex' (Oleksandr) {id=1}"

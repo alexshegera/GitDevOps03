@@ -1,0 +1,39 @@
+[2019-08-14 17:30:25,285]   INFO [ssing plugins 2] -      jetbrains.buildServer.VCS - Server-wide hg path is not set, will use path from the VCS root settings
+[2019-08-14 17:30:38,456]   INFO [ssing plugins 1] - gers.vcs.git.MirrorManagerImpl - No mapping file found at /data/teamcity_server/datadir/system/caches/git/map, create a new one
+[2019-08-14 17:30:38,470]   INFO [ssing plugins 1] - gers.vcs.git.MirrorManagerImpl - Restore mapping from existing repositories
+[2019-08-14 17:30:38,471]   INFO [ssing plugins 1] - gers.vcs.git.MirrorManagerImpl - No existing repositories found
+[2019-08-14 17:30:48,519]   INFO [ssing plugins 1] - ache.fs.impl.MirrorManagerImpl - No mapping file found at /data/teamcity_server/datadir/system/caches/svn/map, create a new one
+[2019-08-14 17:30:48,522]   INFO [ssing plugins 1] - ache.fs.impl.MirrorManagerImpl - Restore mapping from existing repositories
+[2019-08-14 17:30:48,522]   INFO [ssing plugins 1] - ache.fs.impl.MirrorManagerImpl - No existing repositories found
+[2019-08-14 17:31:13,743]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the periodical checking for changes task
+[2019-08-14 17:38:48,682]   WARN [nio-8111-exec-7] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify git@github.com:alexshegera/GitDevOps03.git' command failed.abort: repository git@github.com:alexshegera/GitDevOps03.git not found!
+
+[2019-08-14 17:39:13,163]   WARN [nio-8111-exec-5] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://alexshegera%40gmail.com:******@github.com/alexshegera/GitDevOps03.git' command failed.real URL is https://github.com/alexshegera/GitDevOps03
+abort: 'https://github.com/alexshegera/GitDevOps03' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-UDS3MR1FfvqHmqZAs2MWSDCWPwLemVRLqCwld4/zfwH0vhv7I6RYmDnMnNAVQKP1YYvqnccOCH4iOhFaUUyrjw==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-2e9090135c22aad5f56c2f72dcba7880.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-c0wYv9vreyKS48XiGmf3sC5aV6Mj9KgwbV6/ND+MRm+YgTD2Ztxg5AfwZgpebFsTkY3jZ6RejCMHqBrA1Mw/3Q==" rel="styleshee
+---%<---
+!
+
+[2019-08-14 17:42:00,066]   INFO [nio-8111-exec-5] -      jetbrains.buildServer.VCS - Running test connection for "jetbrains.git" {instance id=-3, parent internal id=-1, parent id=dummy_jetbrains.git, description: "https://github.com/alexshegera/GitDevOps03.git#refs/heads/master"}

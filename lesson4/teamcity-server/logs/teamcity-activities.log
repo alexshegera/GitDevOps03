@@ -1,0 +1,6 @@
+[2019-08-14 17:31:14,188]   INFO - tbrains.buildServer.ACTIVITIES - Server Started
+[2019-08-14 17:37:24,241]   INFO - tbrains.buildServer.ACTIVITIES - New user created: 'alex' {id=1}
+[2019-08-14 17:41:28,909]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "GitDevOps03 {id=GitDevOps03, internal id=project1}" was created by "'alex' (Oleksandr) {id=1}"
+[2019-08-14 17:41:28,946]   INFO - s.buildServer.ACTIVITIES.AUDIT - vcs_root_create: VCS root ""https://github.com/alexshegera/GitDevOps03.git#refs/heads/master" {internal id=1, id=GitDevOps03_HttpsGithubComAlexshegeraGitDevOps03gitRefsHeadsMaster, description: "https://github.com/alexshegera/GitDevOps03.git#refs/heads/master"}" was created by "'alex' (Oleksandr) {id=1}" with comment "In project: GitDevOps03"
+[2019-08-14 17:41:29,102]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1}" was created by "'alex' (Oleksandr) {id=1}"
+[2019-08-14 17:49:09,633]   INFO - s.buildServer.ACTIVITIES.AUDIT - agent_authorize: Agent ""ip_172.17.0.3" {id=1}" was authorized by "'alex' (Oleksandr) {id=1}"
