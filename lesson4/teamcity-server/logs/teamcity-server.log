@@ -378,3 +378,53 @@
 [2019-08-14 18:04:19,691]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #1 {build id=1, buildTypeId=GitDevOps03_Build}
 [2019-08-14 18:04:19,730]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 1, finish date: 2019-08-14 18:04:19.651
 [2019-08-14 18:04:19,801]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1} #1 {promotion id=1, agent="ip_172.17.0.3" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-14 18:04:13.852, finished. Status "NORMAL 'Running'"}
+[2019-08-14 18:09:12,942]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=2, promotion=Build promotion {promotion id=2, configuration={id=GitDevOps03_Build, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-14 18:09:12,948]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=2, configuration={id=GitDevOps03_Build, internal id=bt1}, queued}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs')}
+[2019-08-14 18:09:12,966]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=2, promotion id=2
+[2019-08-14 18:09:12,969]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1} #2 {promotion id=2, agent="ip_172.17.0.3" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-14 18:09:12.961, running}
+[2019-08-14 18:09:12,970]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 2
+[2019-08-14 18:09:12,971]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 13ms, number of builds started: 1
+[2019-08-14 18:09:20,340]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #2 {build id=2, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:09:20,341]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #2 {build id=2, buildTypeId=GitDevOps03_Build}, task id: 6
+[2019-08-14 18:09:20,342]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #2 {build id=2, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:09:20,347]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #2 {build id=2, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:09:20,354]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 2, finish date: 2019-08-14 18:09:20.300
+[2019-08-14 18:09:20,375]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1} #2 {promotion id=2, agent="ip_172.17.0.3" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-14 18:09:13.897, finished. Status "NORMAL 'Running'"}
+[2019-08-14 18:12:44,533]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1}" build configuration settings were edited ("version before: 1, version after: 2") by "'alex' (Oleksandr) {id=1}" with comment "runners of 'Build' build configuration were updated"
+[2019-08-14 18:12:56,899]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-14 18:12:56,900]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-14 18:12:56,901]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-14 18:12:56,908]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-14 18:21:07,287]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1}" build configuration settings were edited ("version before: 2, version after: 3") by "'alex' (Oleksandr) {id=1}" with comment "runners of 'Build' build configuration were updated"
+[2019-08-14 18:21:17,943]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-14 18:21:17,944]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-14 18:21:17,945]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-14 18:21:17,948]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-14 18:23:11,588]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1}" build configuration settings were edited ("version before: 3, version after: 4") by "'alex' (Oleksandr) {id=1}" with comment "runners of 'Build' build configuration were updated"
+[2019-08-14 18:23:23,953]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-14 18:23:23,954]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-14 18:23:23,956]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-14 18:23:23,962]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-14 18:23:49,625]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=3, promotion=Build promotion {promotion id=3, configuration={id=GitDevOps03_Build, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-14 18:23:49,629]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=3} was added to queue by "'alex' (Oleksandr) {id=1}"
+[2019-08-14 18:23:49,634]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=3, configuration={id=GitDevOps03_Build, internal id=bt1}, queued}, triggered by "'alex' (Oleksandr) {id=1}" (##userId='1' type='user')}
+[2019-08-14 18:24:47,365]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session '440RJYm...' was closed, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 18:24:47,366]   INFO -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} has been unregistered. Reason: Agent has unregistered
+[2019-08-14 18:26:44,102]   INFO -    jetbrains.buildServer.AGENT - Upgrade of agent "ip_172.17.0.3" {id=1} has been scheduled, agent version: 66342, plugins signature: NA. Current version: 66342, plugins signature: 66342-md5-6317c3f717266dc0e76eadc2c6ef9a21
+[2019-08-14 18:26:44,105]   INFO -    jetbrains.buildServer.AGENT - Agent has been registered: "ip_172.17.0.3" {id=1, protocol=unidirectional, host=172.17.0.3:9090, agentTypeId=1, pool=Default, registered since 2019-08-14 18:26:44.101}, not running a build
+[2019-08-14 18:26:44,108]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'HtnFcex...' was created, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 18:26:44,157]   INFO -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} has confirmed upgrade.
+[2019-08-14 18:26:44,235]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'HtnFcex...' was closed, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 18:26:44,239]   INFO -    jetbrains.buildServer.AGENT - Agent "ip_172.17.0.3" {id=1} has been unregistered. Reason: Agent has unregistered (will upgrade)
+[2019-08-14 18:27:18,015]   INFO -    jetbrains.buildServer.AGENT - Agent has been registered: "ip_172.17.0.3" {id=1, protocol=unidirectional, host=172.17.0.3:9090, agentTypeId=1, pool=Default, registered since 2019-08-14 18:27:17.991}, not running a build
+[2019-08-14 18:27:18,015]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'gYoKn9v...' was created, agent: "ip_172.17.0.3" {id=1}
+[2019-08-14 18:27:18,046]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=3, promotion id=3
+[2019-08-14 18:27:18,058]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1} #3 {promotion id=3, agent="ip_172.17.0.3" {id=1}, triggered by "'alex' (Oleksandr) {id=1}" (##userId='1' type='user'). Started 2019-08-14 18:27:18.042, running}
+[2019-08-14 18:27:18,060]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 3
+[2019-08-14 18:27:18,062]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 40ms, number of builds started: 1
+[2019-08-14 18:27:33,512]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #3 {build id=3, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:27:33,513]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #3 {build id=3, buildTypeId=GitDevOps03_Build}, task id: 8
+[2019-08-14 18:27:33,519]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #3 {build id=3, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:27:33,535]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #3 {build id=3, buildTypeId=GitDevOps03_Build}
+[2019-08-14 18:27:33,540]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 3, finish date: 2019-08-14 18:27:33.495
+[2019-08-14 18:27:33,607]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / Build {id=GitDevOps03_Build, internal id=bt1} #3 {promotion id=3, agent="ip_172.17.0.3" {id=1}, triggered by "'alex' (Oleksandr) {id=1}" (##userId='1' type='user'). Started 2019-08-14 18:27:19.190, finished. Status "FAILURE 'Exit code 1 (Step: Build Docker Image (Docker)) (new)'"}
