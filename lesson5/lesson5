@@ -1,3 +1,4 @@
+***
 Teamcity:
 Server:
 docker run -it --name teamcity-server-instance -v /home/alex/ITEA/GitDevOps03/lesson4/teamcity-server/data:/data/teamcity_server/datadir -v /home/alex/ITEA/GitDevOps03/lesson4/teamcity-server/logs:/opt/teamcity/logs -p 8111:8111 -d jetbrains/teamcity-server
@@ -14,4 +15,3 @@ sudo nano /etc/ansible/ansible.cfg
 ansible servers -a uptime
 ansible servers -b -m yum -a "name=httpd state=latest"
 ansible servers -b -m yum -a "name=httpd state=running"
-
