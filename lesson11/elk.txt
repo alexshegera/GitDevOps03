@@ -1,0 +1,17 @@
+sudo docker-compose up
+
+sudo docker run  \
+  --name=filebeat \
+  --user=root \
+  --volume="$(pwd)/filebeat.docker.yml:/usr/share/filebeat/filebeat.yml:ro" \
+  --volume="/var/lib/docker/containers:/var/lib/docker/containers:ro" \
+  --volume="/var/run/docker.sock:/var/run/docker.sock:ro" \
+  --network=dockerelk_elk docker.elastic.co/beats/filebeat:7.3.2 filebeat -e -strict.perms=false \
+  -E output.elasticsearch.hosts=["elasticsearch:9200"]
+
+
+sudo docker run   --name=heartbeat   --user=heartbeat   \
+--network=dockerelk_elk  \
+--volume="$(pwd)/heartbeat.docker.yml:/usr/share/heartbeat/heartbeat.yml:ro" \
+ docker.elastic.co/beats/heartbeat:7.3.2 \
+--strict.perms=false -e  -E output.elasticsearch.hosts=["elasticsearch:9200"]
